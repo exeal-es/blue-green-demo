@@ -8,6 +8,6 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "Hello, World! It's " + System.currentTimeMillis();
+        return "Hello, World! It's " + System.currentTimeMillis() + " new version";
     }
 }
